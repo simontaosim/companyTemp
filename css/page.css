@@ -1,0 +1,72 @@
+@media screen and (min-width: 40em) {
+
+  #pageHeader{
+    top: -20px;
+    width: 100%;
+    height: 80px;
+  }
+
+  .page-body {
+    height: 300px;
+    text-align: center;
+    color: #373C38;
+    background-color: #FFFFFB;
+    position: relative;
+    top:-76px;
+    z-index: 1000
+    /*导航背景顶上去，底下的也要顶上去*/
+  }
+
+  .page-footer{
+    text-align: center;
+    background-color: #787878;
+    color: #FCFAF2;
+    height: 210px;
+    padding: 23px;
+    z-index:1200;
+  }
+
+
+
+  /*调节ant的导航项，让其更紧凑*/
+  .page-nav-item {
+    float: right !important;
+    color: #FCFAF2;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+  .page-nav-item a{
+    font-size: 14px;
+    /*ant design 并没有对字体大小进行normalize 需要自己定义*/
+  }
+
+  .page-nav-logo{
+    float: left !important;
+    color: blue;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+  }
+  .page-nav-logo a{
+    position: relative;
+    top: 16px;
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    /*ant design 并没有对字体大小进行normalize 需要自己定义*/
+  }
+
+  /*使用大色块设计原则让网站更有范*/
+  .page-header-back{
+    height: 160px;
+    background-color: #787878;
+    position: relative;;
+    top: -80px;
+  }
+
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  /*基于媒体查询的响应式效果在后续的文章里会更新*/
+}

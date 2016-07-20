@@ -1,0 +1,80 @@
+@media screen and (min-width: 40em) {
+  .left-hide{
+    display: inline-flex;
+  }
+  .left-show{
+    display: none !important;
+  }
+  #app{
+    height: auto;
+    font-family: Microsoft YaHei;
+  }
+  #pcTopNav{
+    display: inline-flex !important;
+    background-color: #FFFFFB;
+    z-index: 500;
+  }
+  #mobileBottomNav{
+    display: none !important;
+    padding: 2px;
+    font-size: 12px;
+  }
+  #mobileTopNav{
+    display: none !important;
+
+  }
+  #homeContent{
+    padding-top: 28px;
+  }
+
+  #picCarousel .ui.horizontal.list .item img{
+    height: 310px;
+  }
+  #picCarousel{
+    height: 20%;
+    position: relative;
+    top: -48px;
+    left: 3%;
+    text-align: center;
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 39.9375em) {
+  .left-hide{
+    display: none !important;
+  }
+  .left-show{
+    display: inline-flex !important;
+  }
+  #app{
+    height: 99%;
+    font-family: Microsoft YaHei;
+  }
+  #pcTopNav{
+    display: none !important;
+  }
+  #mobileTopNav{
+    display: block !important;
+    z-index: 500;
+  }
+  #mobileBottomNav{
+    display: inline-flex !important;
+    font-size: 12px;
+    padding: 2px;
+    z-index: 500;
+  }
+
+  #homeContent{
+    padding-top: 7px;
+  }
+  #picCarousel{
+    height: auto;
+    position: relative;
+    top: -48px;
+    left: 4%;
+    text-align: center;
+  }
+}

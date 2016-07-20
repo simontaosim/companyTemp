@@ -1,0 +1,25 @@
+@media screen and (min-width: 40em) {
+  /*PC的屏幕*/
+  .productCard{
+      float: left !important;
+      width: 20% !important;
+      padding: 10px !important;
+      margin: 10px !important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 39.9375em) {
+  /*手机的屏幕*/
+  .productCard{
+    float: left !important;
+    width: 47% !important;
+    padding: 4px !important;
+    margin: 4px !important;
+    position: relative !important;
+    left: 6%;
+  }
+
+}
